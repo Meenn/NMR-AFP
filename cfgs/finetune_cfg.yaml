@@ -10,19 +10,16 @@ model_paras:
   clip_pred: 1
   num_flows: 4
   finetune: True
-  # ML-MemAE-SC
   feature_root: 32
   num_slots: 2000
   shrink_thres: 0.0005
-#  mem_usage: [ False, False, False, True ]
-#  skip_ops: [ "none", "none", "none" ]
   mem_usage: [ False, True , True, True ]
   skip_ops: [ "none", "concat", "concat" ]
 
 device: cuda:0
 dataset_base_dir: ./data
 dataset_name: ped2
-exp_name: ped2_ML_MemAE_SC_AMTAE_finetune
+exp_name: ped2_NL_ML_MemAE_SC_AMTAE_finetune
 ckpt_root: ./ckpt
 log_root: ./log
 eval_root: ./eval
