@@ -9,7 +9,6 @@ model_paras:
   clip_hist: 4
   clip_pred: 1
   num_flows: 4
-  # ML-MemAE-SC
   feature_root: 32
   num_slots: 2000
   shrink_thres: 0.0005
@@ -24,7 +23,7 @@ ckpt_root: ./ckpt
 log_root: ./log
 eval_root: ./eval
 
-NL_ML_MemAE_pretrained: ./ckpt/ped2NL__ML_MemAE_SC2/best.pth
+NL_ML_MemAE_pretrained: ./ckpt/ped2_NL__ML_MemAE_SC/best.pth
 pretrained: False
 model_savename: model.pth
 # num of iterations to log
