@@ -143,8 +143,8 @@ def evaluate(config, ckpt_path, testing_chunked_samples_file, suffix):
 
 
 if __name__ == '__main__':
-    model_save_path = "./pretrained_ckpts/sh_ML_MemAE_SC.pth"
-    cfg_file = "./pretrained_ckpts/sh_ML_MemAE_SC_cfg.yaml"
+    model_save_path = "./pretrained_ckpts/ped2_NL_ML_MemAE_SC.pth"
+    cfg_file = "./pretrained_ckpts/ped2_NL_ML_MemAE_SC.pth_cfg.yaml"
 
     config = yaml.safe_load(open(cfg_file))
     dataset_base_dir = config["dataset_base_dir"]
