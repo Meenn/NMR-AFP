@@ -165,10 +165,10 @@ def evaluate(config, ckpt_path, testing_chunked_samples_file, training_stats_pat
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_save_path", type=str,
-                        default="./pretrained_ckpts/ped2_HF2VAD_99.31.pth",
+                        default="./pretrained_ckpts/NMR_AFP_Ped2_99.59.pth",
                         help='path to pretrained weights')
     parser.add_argument("--cfg_file", type=str,
-                        default="./pretrained_ckpts/ped2_HF2VAD_99.31_cfg.yaml",
+                        default="./pretrained_ckpts/NMR_AFP_Ped2_99.59_cfg.yaml",
                         help='path to pretrained model configs')
     args = parser.parse_args()
 
