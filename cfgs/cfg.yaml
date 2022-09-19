@@ -23,7 +23,7 @@ ckpt_root: ./ckpt
 log_root: ./log
 eval_root: ./eval
 
-NL_ML_MemAE_pretrained: ./ckpt/ped2_NL__ML_MemAE_SC/best.pth
+NL_ML_MemAE_pretrained: ./ckpt/ped2_NL_ML_MemAE_SC/best.pth
 pretrained: False
 model_savename: model.pth
 # num of iterations to log
